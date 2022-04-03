@@ -5,9 +5,7 @@ print("list 2 elements : ",list2)
 print("list operations")
 print("----------------------")
 print(" 1. Append\n 2.insert\n 3.extend\n 4.remove\n 5.pop\n 6.reverse\n 7.maximum\n 8.minimum\n 9.count\n 10.sorted\n 11.find index\n 12.concatenate two list\n 13.repeatation\n 14.len\n 15.clear\n")
-
 c=int(input("enter your choice : "))
-
 if c==1:
   list1.append("python")
   print("appended an element : ",list1)
