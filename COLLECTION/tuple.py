@@ -1,15 +1,11 @@
 t1=(11,17,7,"sweet",7.7,"strawberry")
 t2=(1,3,5,7,9)
-
 print("t1 : ",t1)
 print("t2 : ",t2,"\n")
-
-print("         TUPLE OPERATIONS            ")
-print("--------------------------------------")
-
+print("TUPLE OPERATIONS")
+print("----------------")
 print("\n1. datatype \n2. no.of.elements \n3. repeat the elements \n4. element at the index \n5. unpacking the element \n6. concatenation \n7. remove first element \n8. print all characters except last 5 characters \n9. display last element of the t1 \n10. reversed the order of  t1 \n11. fetch middle elements of t1 \n12. fetch portion of an element \n13. maximum of elements in t2 \n14. minimum of elements in t2 \n15. sum of all elements in t2 \n16. sort the tuple t2 \n17. reverse sorting the tuple t2 \n18. delete a tuple \n19. convert into immutable sequence of elements")
 n=int(input("\nenter your choice : "))
-
 if(n==1):
   print("datatype of t1 : ",type(t1))
   print("datatype of t2 : ",type(t2))
