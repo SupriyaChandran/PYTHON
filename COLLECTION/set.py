@@ -1,15 +1,11 @@
 s1={9,6,8,10.2,"python",(1,2,3)}
 s2=set([9,8,3,4,1,7])
-
 print("s1 : ",s1)
 print("s2 : ",s2,"\n")
-
-print("         SET OPERATIONS        ")
-print("---------------------------------")
+print("SET OPERATIONS")
+print("--------------")
 print("\n1. print set elemenets \n2. datatype of t1 \n3. add an element to s1 \n4. update elements  \n5. discard \n6. remove \n7. clear s1 \n8. union of s1 and s2 \n9. intersection of s1 and s2 \n10. difference of s1 and s2 \n11. symmetric difference of s1 and s2 \n12. check  s2 is disjoint of s1 \n13. check  s2 is subset of s1 \n14. pop operation \n15. copy \n16. display elements in s1 using for loop \n17. display maximum value \n18. display minimum value \n19. sum of elements in set \n20. sort operation \n21. length of the set")
-
 n=int(input("\nenter your choice : "))
-
 if(n==1):
   print("s1 elements : ",s1)
   print("s1 elements : ",s2)
